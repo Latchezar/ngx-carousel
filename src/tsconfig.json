@@ -21,8 +21,8 @@
     "compilationMode": "partial",
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "ngx-slick-carousel.js",
-    "flatModuleId": "ngx-slick-carousel"
+    "flatModuleOutFile": "ngx-alb-carousel.js",
+    "flatModuleId": "ngx-alb-carousel"
   },
   "files": [
     "./index.ts"
