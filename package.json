@@ -1,6 +1,6 @@
 {
   "name": "ngx-alb-carousel",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "scripts": {
     "build": "ng build ngx-alb-carousel && cp README.MD dist/README.MD",
     "docs": "npm run docs:build",
