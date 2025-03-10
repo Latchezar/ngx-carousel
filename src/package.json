@@ -1,6 +1,6 @@
 {
   "name": "ngx-alb-carousel",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/Latchezar/ngx-carousel"
@@ -19,9 +19,9 @@
   "module": "ngx-slick.js",
   "typings": "ngx-slick.d.ts",
   "peerDependencies": {
-    "@angular/core": "^18.0.0",
-    "@angular/common": "^18.0.0",
-    "@angular/forms": "^18.0.0",
+    "@angular/core": "^19.2.1",
+    "@angular/common": "^19.0.0",
+    "@angular/forms": "^19.2.1",
     "rxjs": "^7.0.0",
     "zone.js": ">=0.10.2"
   }

@@ -8,7 +8,6 @@ import {
   EventEmitter,
   forwardRef,
   inject,
-  Inject,
   Input,
   NgZone,
   OnChanges,
@@ -35,6 +34,7 @@ declare const jQuery: any;
     multi: true
   }],
   template: '<ng-content></ng-content>',
+  standalone: false
 })
 export class SlickCarouselComponent implements OnDestroy, OnChanges, AfterViewInit, AfterViewChecked {
 
@@ -236,6 +236,7 @@ export class SlickCarouselComponent implements OnDestroy, OnChanges, AfterViewIn
 
 @Directive({
   selector: '[ngxSlickItem]',
+  standalone: false
 })
 export class SlickItemDirective implements OnInit, OnDestroy {
   private carousel = inject(SlickCarouselComponent, { host: true });

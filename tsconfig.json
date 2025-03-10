@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "./src",
-    "downlevelIteration": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
     "importHelpers": true,
     "module": "es2022",
